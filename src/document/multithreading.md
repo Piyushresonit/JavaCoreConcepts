@@ -11,14 +11,14 @@ Thread is executed inside the process. There is context-switching between the th
 There can be multiple processes inside the OS and one process can have multiple threads.
 > At a time, one thread is executed only.
 
-![img](https://github.com/Piyushresonit/JavaCoreConcepts/blob/master/src/document/images/thread.png)
+![img](/images/thread.png)
 
 ## Life cycle of a Thread (Thread States)
 
 * A thread can be in one of the five states in thread life cycle in java **new**, **runnable**, **non-runnable**, **terminated** and **running** state. 
 * The life cycle of the thread in java is **controlled by JVM**
 
-![img](https://github.com/Piyushresonit/JavaCoreConcepts/blob/master/src/document/images/threadlifecycle.png)
+![img](/images/threadlifecycle.png)
 * **New**: The thread is in new state if you create an instance of Thread class but before the invocation of `start()` method.
 * **Runnable**: The thread is in runnable state after invocation of `start()` method, but the **thread scheduler** has not selected it to be the running thread.
 * **Running**: The thread is in running state if the thread scheduler has **selected thread**.
@@ -144,7 +144,7 @@ public void run() {
 * Invoking the `run()` method from main thread, the `run()` method goes onto the **current call stack** rather than at the beginning of a new call stack.
 * There is **No context-switching** because here object will be treated as **normal object not thread object**.
 
-![img](https://github.com/Piyushresonit/JavaCoreConcepts/blob/master/src/document/images/runcallstack.png)
+![img](/images/runcallstack.png)
 
 ```java
 public static void main(String[] args) {

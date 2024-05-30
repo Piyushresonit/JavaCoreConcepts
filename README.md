@@ -1,3 +1,4 @@
 # Java Core Concepts
 
-1. [**Multi-Threading**](https://github.com/Piyushresonit/JavaCoreConcepts/blob/master/src/document/multithreading.md)
+1. [**Java Introduction**](src/document/java_introduction.md)
+2. [**Multi-Threading**](src/document/multithreading.md)
